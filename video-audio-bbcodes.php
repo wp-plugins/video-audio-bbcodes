@@ -5,7 +5,7 @@
 Plugin Name:  Video and Audio BBCodes
 Plugin URI:   http://wp.antonchanning.com/video-audio-bbcodes/
 Description:  Adds support for video and audio bbcodes to wordpress, buddypress and bbpress
-Version:      1.0
+Version:      1.1
 Author:       Anton Channing
 Author URI:   http://wp.antonchanning.com
 
