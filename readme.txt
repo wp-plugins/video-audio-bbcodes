@@ -4,10 +4,12 @@ Donate link: http://wp.antonchanning.com/donate/
 Tags: bbpress, bbpress2, bbpress-plugin, buddypress, bbcode, youtube, googlevideo, vimeo, freesound
 Requires at least: 2.5
 Tested up to: 3.5.1
-Stable tag: 1.0
+Stable tag: 1.1
 
-This plugin adds support for video and audio shortcodes to posts, comments,
-pages, bbpress 2.0 forums and buddypress activity and group forums.  
+This plugin adds support for video and audio shortcodes to posts and pages.  
+If you have 'bbPress2 shortcode whitelist' installed, you can also opt to
+allow them in comments, bbpress 2.0 forums and buddypress activity, group 
+forums and private messages.  
 
 == Description ==
 
@@ -29,6 +31,7 @@ Freesound audio: [freesound]freesound.org sound ID only[/freesound]
 
 1. Upload the `video-audio-bbcodes` folder and its contents to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
+1. If you have 'bbPress2 shortcode whitelist' plugin installed, you can use it to approve these bbcodes on its settings page.
 
 == Upgrade Notice ==
 
@@ -48,6 +51,10 @@ do it.
 == Screenshots ==
 
 == Changelog ==
+
+= 1.1 =
+* Updated and improved description and install instructions in readme.txt
+* Improved status messages in admin screen
 
 = 1.0 =
 * Support for Youtube using [youtube] bbcode.  Supports long and short urls plus id.
