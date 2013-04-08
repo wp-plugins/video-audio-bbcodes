@@ -5,12 +5,12 @@
 
 	<?php if($whitelist_enabled) { 
 		if($bbcodes_active) { ?>
-	<div style="background: #cfc; border: 1px solid #3f3; padding: 10px; border-radius: 3px;"><p>Video and Audio BBCode is enabled and <a href="http://wordpress.org/extend/plugins/bbpress2-shortcode-whitelist/">bbPress shortcode whitelist</a> has been detected as activated.  You and your users should be able to use BBCode in your blogs, comments and forums.  All done!</p></div> 
+	<div style="background: #cfc; border: 1px solid #3f3; padding: 10px; border-radius: 3px;"><p>Video and Audio BBCode is enabled and <a href="http://wordpress.org/extend/plugins/bbpress2-shortcode-whitelist/">bbPress shortcode whitelist</a> has been detected as activated.  You and your users should be able to use all Video and Audio BBCode in your blogs, comments, messages, updates and forums.  All done!</p></div> 
 		<?php } else { ?>
-	<div style="background: #ffc; border: 1px solid #ff3; padding: 10px; border-radius: 3px;"><p>Video and Audio BBCode is installed and <a href="http://wordpress.org/extend/plugins/bbpress2-shortcode-whitelist/">bbPress shortcode whitelist</a> has been detected as activated.  However, it seems you might need to enable the BBCode plugin in your whitelist settings.  If you've included some BBCodes in the manual whitelist they should work.</p></div> 
+	<div style="background: #ffc; border: 1px solid #ff3; padding: 10px; border-radius: 3px;"><p>Video and Audio BBCode is installed and <a href="http://wordpress.org/extend/plugins/bbpress2-shortcode-whitelist/">bbPress shortcode whitelist</a> has been detected as activated.  However, it seems you might need to enable the Video and Audio BBCode plugin in your whitelist settings.  If you've included a subset of the BBCodes in the manual whitelist users will be restricted to just those in your blogs, comments, messages, updates and forums. The others will be available only in posts and pages.</p></div> 
 		<?php } ?>
 	<?php } else { ?>
-	<div style="background: #fcc; border: 1px solid #f33; padding: 10px; border-radius: 3px;"><p>Video and Audio BBCode is enabled and working in your Posts only.  To enable in comment, bbPress and BuddyPress, install
+	<div style="background: #fcc; border: 1px solid #f33; padding: 10px; border-radius: 3px;"><p>Video and Audio BBCode is enabled and working in your Posts and Pages only.  To enable in comments, bbPress and BuddyPress, install
 	the <a href="http://wordpress.org/extend/plugins/bbpress2-shortcode-whitelist/">bbPress shortcode whitelist</a> to stop unsafe shortcodes like [bbp-register] from being used.</p></div>  
 	<?php } ?>
 
